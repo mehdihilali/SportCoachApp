@@ -32,7 +32,9 @@ const SignIn = () => {
                 resizeMode='contain'
                 className="w-[115px] h-[35px]"
               /> */}
-              <Text className="text-white text-2xl font-psemibold py-5">Log in into SportCoachApp</Text>
+              <Text className="text-white text-2xl font-psemibold py-5">Log in into {''}
+                <Text className="font-psemibold text-purple-600">SportCoach</Text>
+              </Text>
               <FormField
                 title="Email"
                 value={form.email}
@@ -55,7 +57,7 @@ const SignIn = () => {
                 <Text className="text-lg text-gray-100 font-pregular">
                   Don't have an account ?
                 </Text>
-                <Link href="/sign-up" className='text-lg font-psemibold text-secondary'>Signup</Link>
+                <Link href="/sign-up" className='text-lg font-psemibold text-purple-600'>Signup</Link>
               </View>
             </View>
           </ScrollView>

@@ -11,8 +11,9 @@ import logout from "../assets/icons/logout.png";
 import eyeHide from "../assets/icons/eye-hide.png";
 import eye from "../assets/icons/eye.png";
 import play from "../assets/icons/play.png";
-import exercice from '../assets/icons/exercise.png'
-import diagnostic from '../assets/icons/diagnostic.png'
+import exercice from '../assets/icons/exercise.png';
+import diagnostic from '../assets/icons/diagnostic.png';
+import clapping from '../assets/icons/clapping.png';
 export default {
   play,
   bookmark,
@@ -29,4 +30,5 @@ export default {
   eye,
   exercice,
   diagnostic,
+  clapping,
 };

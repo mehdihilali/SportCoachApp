@@ -45,8 +45,16 @@ const Diagnostic = () => {
     }
   };
 
+  const progressPercentage = (currentQuestionIndex + 1) / questions.length * 100;
+
   return (
     <View className="flex-1 p-6 justify-center items-center bg-primary">
+      <View className="w-full h-2 bg-gray-300 rounded-full overflow-hidden mb-10">
+        <View
+          style={{ width: `${progressPercentage}%` }}
+          className="h-full bg-purple-800"
+        />
+      </View>
       <Text className="text-gray-100 font-psemibold text-3xl mb-12 text-center">
         {questions[currentQuestionIndex].text}
       </Text>

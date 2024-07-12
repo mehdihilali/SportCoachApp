@@ -5,6 +5,7 @@ import path from "../assets/images/path.png";
 import logo from "../assets/images/logo.png";
 import logoSmall from "../assets/images/logo-small.png";
 import empty from "../assets/images/empty.png";
-import powerF from "../assets/images/powerF.jpg"
+import powerFitness from '../assets/images/PowerFitnessCard.png';
+import logoSport from '../assets/images/logoSport.png'
 
-export default { profile, thumbnail, cards, path, logo, logoSmall, empty, powerF};
+export default { profile, thumbnail, cards, path, logo, logoSmall, empty, powerFitness, logoSport};
